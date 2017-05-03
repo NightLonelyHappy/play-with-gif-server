@@ -170,7 +170,7 @@ app.route('/relate')
                 res.json({ peers: peerPercent });
             }
             else {
-                res.json({ peers: [] });
+                res.json({message: 'id NOT FOUND'});
             }
         }
         catch (err) {
